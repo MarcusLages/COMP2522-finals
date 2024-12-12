@@ -8,7 +8,7 @@ int isValidScore(int score) {
 // Question 2
 int detectAnomalies(int scores[], int size) {
     for(int i = 0; i < size; i++) {
-        if(!isValidScore(scores[1]))
+        if(!isValidScore(scores[i]))
             return 1;
     }
 
@@ -17,7 +17,7 @@ int detectAnomalies(int scores[], int size) {
 
 // Question 3
 void updateScore(int *score, int delta) {
-    if(score != NULL) return;
+    if(score == NULL) return;
 
     (*score) += delta;
 
