@@ -1,3 +1,0 @@
-C:/Users/marcu/Documents/BCIT Files/COMP2510 - Procedural/COMP2522-finals/cmake-build-debug/CMakeFiles/COMP2522_finals.dir
-C:/Users/marcu/Documents/BCIT Files/COMP2510 - Procedural/COMP2522-finals/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/marcu/Documents/BCIT Files/COMP2510 - Procedural/COMP2522-finals/cmake-build-debug/CMakeFiles/rebuild_cache.dir
