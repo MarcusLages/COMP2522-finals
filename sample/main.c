@@ -31,8 +31,10 @@ void updateScore(int *score, int delta) {
 int calculateAverage(int scores[], int size) {
     int sum = 0, count = 0;
 
-    for(int i =  0; i < size; i++)
-        sum += size;
+    for(int i =  0; i < size; i++) {
+        sum += scores[i];
+        count++;
+    }
 
     if(count == 0) return 0;
 
