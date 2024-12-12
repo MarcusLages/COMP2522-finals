@@ -26,7 +26,7 @@ void push(Stack *stack, void *item, int itemSize) {
 
     if(isFull(stack)) {
         stack->capacity *= 2;
-        stack->items = realloc(stack->items, stack->capacity);
+        stack->items = realloc(stack->items, stack->capacity * sizeof(void *));
     }
 
     stack->top++;
